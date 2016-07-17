@@ -57,6 +57,11 @@
             <artifactId>finagle-stats_2.11</artifactId>
             <version>6.36.0</version>
         </dependency>
+        <dependency>
+            <groupId>jmat.scalapocs</groupId>
+            <artifactId>HttpMuxHandler</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <repositories>

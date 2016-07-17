@@ -32,6 +32,7 @@ object Main extends TwitterServer {
     println(s"Serving on port ${server.boundAddress}...")
     println(s"Admin server on port ${adminHttpServer.boundAddress}...")
     println(s"Metrics are available at ${adminHttpServer.boundAddress}/admin/metrics.json?pretty=true...")
+    println(s"A dynamically loaded admin handler is available at ${adminHttpServer.boundAddress}/admin/handler.json...")
 
     Await.ready(server)
   }
