@@ -1,0 +1,16 @@
+plugins {
+  id 'application'
+  id 'scala'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.apache.spark:spark-sql_2.13:4.0.0'
+}
+
+application {
+  mainClass = 'jmat.sparkstructuredstreaming.Main'
+}
